@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="./css/jumbotron.css" rel="stylesheet">
+    <style>
+      #title{
+        text-shadow: 2px 4px 5px rgba(0,0,0,.9);
+        font-variant: small-caps;
+        color: #fff;
+        letter-spacing: 5pt;
+        word-spacing: 21px;
+        font-size: 4.5em;
+        font-family: impact, sans-serif;
+        line-height: 2;
+        font-weight: 900;
+        padding: 10px;
+      }
+      .lead{
+        font-weight: normal;
+      }
+      ul li{
+        padding: 10px;
+      }
+
+      #footer{
+        width: 100%;
+        background-color: #007bff;
+        text-align: center;
+        border-radius: 8px 8px 8px 8px;
+      }
+
+      #showtimes img{
+        max-height: 200px;
+        max-width: 300px;
+      }
+      
+      .em{
+        font-style: italic;
+      }
+    </style>
+    <title>Academy Cinemas</title>
+  </head>
+  <body>
+    <div id="container">
+    <nav class="navbar navbar-expand-lg bg-dark text-info">
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#about">Accomodations</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#showtimes">Showtimes</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="#rewards">Rewards</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <main role="main">
+      <div class="jumbotron jumbotron-fluid bg-info text-center">
+        <div class="container">
+          <h1 id="title" class="display-4 text-light">Academy Cinemas</h1>
+          <p class="lead">Sit back, relax, and enjoy the show.</p>
+        </div>
+      </div>
+    </main>
+
+    
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-sm">
+            <img class="image-fluid" src="./img/PortlandSign.jpg" alt="" width="400px">
+        </div>
+        <div class="col-sm">
+            <h3>Accomodations</h3>
+            <p>Located in beautiful Portland, Oregon's Pearl district, our reels have been spinning since 1959.</p>
+            <p>Showing our guests a great time is our passions and seeing thier smiles is our pleasure!</p>
+            <p>All our auditoriums are equipped with brand new Christie 3D&reg; sound systems!</p>
+            <p>Relax in our extra-wide, plush cusioned recliners. Our seating arrangement is disability friendly. &#9855;</p>
+        </div>
+        <div class="col-sm">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-action list-group-item-primary"><a href="#showtimes">Fight Club (1999)</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-success"><a href="#showtimes">Road Trip (2000)</a></li>
+              <li class="list-group-item list-group-item-action list-group-item-dark"><a href="#showtimes">Dune (2021)</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <!-- START Showtimes -->
+
+      <section id="showtimes" class="container my-5">
+
+        <div class="container">
+          <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 shadow-sm">
+              <div class="card w-auto-col" style="">
+                <img class="card-img-top" src="./img/movie1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Fight Club (1999)</h5>
+                  <p class="card-text">A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue 
+                    his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), 
+                    another fake attendee of support groups, his life seems to become a little more bearable. However 
+                    when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club 
+                    and soap making scheme. Together the two men spiral out of control and engage in competitive 
+                    rivalry for love and power.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-info">Brad Pitt, Edward Norton, Helena Bonham Carter, Meat Loaf</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link badge badge-pill badge-primary">12:00</a>
+                    <a href="#" class="card-link badge badge-pill badge-primary">13:30</a>
+                    <a href="#" class="card-link badge badge-pill badge-primary">15:00</a>
+                    <a href="#" class="card-link badge badge-pill badge-primary">17:30</a>
+                    <a href="#" class="card-link badge badge-pill badge-primary">19:00</a>
+                    <a href="#" class="card-link badge badge-pill badge-primary">21:30</a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card w-auto-col" style="">
+                <img class="card-img-top" src="./img/movie2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Road Trip (2000)</h5>
+                  <p class="card-text">Josh and Tiffany have been together since they were kids. ENTER Beth, a sexy blonde going to 
+                    college with Josh. One night, Josh and Beth hook up and make a videotape the same day that Josh 
+                    plans to mail a video to Tiffany of him talking about college life. The wrong tape gets sent, 
+                    forcing Josh, along with a few pals, to go to Austin, where Tiffany is, and stop her from seeing 
+                    the tape. Full of laughs, you'll be sure to enjoy Road Trip.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-info">Breckin Meyer, Seann William Scott, Amy Smart, Tom Green, Andy Dick</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link badge badge-pill badge-primary">12:00</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">13:30</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">15:00</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">17:30</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">19:00</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">21:30</a>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm">
+              <div class="card w-auto-col" style="">
+                <img class="card-img-top" src="./img/movie3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Dune (2017)</h5>
+                  <p class="card-text ">A mythic and emotionally charged hero's journey, "Dune" tells the story of Paul Atreides, a 
+                    brilliant and gifted young man born into a great destiny beyond his understanding, who must 
+                    travel to the most dangerous planet in the universe to ensure the future of his family and his 
+                    people. As malevolent forces explode into conflict over the planet's exclusive supply of the 
+                    most precious resource in existence-a commodity capable of unlocking humanity's greatest 
+                    potential-only those who can conquer their fear will survive.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item text-info">Timothée Chalamet, Rebecca Ferguson</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link badge badge-pill badge-primary">12:00</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">13:30</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">15:00</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">17:30</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">19:00</a>
+                  <a href="#" class="card-link badge badge-pill badge-primary">21:30</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END Showtimes -->
+
+      <!-- jumbotron heading -->
+      <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+        <div class="container">
+          <h1 class="display-4 hidden-sm-down">Movie Deals!</h1>
+          <p class="lead">Check out our monthly deals...</p>
+          <!-- movie deals -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dealModal">
+            Click Here!
+          </button>
+          <!-- /movie deals -->
+        </div>
+      </div>
+      <!-- /jumbotron heading -->
+
+      <!-- signup form -->
+      <section id="rewards">
+        <form class="text-center">
+          <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <button type="button" class="btn btn-secondary" data-container="body" data-trigger="hover" data-toggle="popover" data-placement="top" data-content="Submit your email to receive great movie rewards!">Submit</button>
+          </div>
+          
+        </form>
+      </section>
+      <!-- /signup form -->
+
+      <!-- form modal -->
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="dealModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Register to receive movie deals</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>      
+      
+      <!-- /form modal -->
+
+      <div id="footer" class="container my-5">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="#about">Accomodations</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="#showtimes">Showtimes</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="#rewards">Movie Rewards</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="mailto:movies@news.org">movies@news.org</a></small>
+          </li>
+          <li class="nav-item">
+            <small><a class="nav-link text-light" href="mailto:info@academycinemas.com">info@academycinemas.com</a></small>
+          </li>
+          <li class="nav-item">
+            <small>&copy; 2019-2029 Academy Cinemas</small>
+          </li>
+        </ul>
+      </div>
+
+    
+    </div>
+
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js" integrity="sha512-X7kCKQJMwapt5FCOl2+ilyuHJp+6ISxFTVrx+nkrhgplZozodT9taV2GuGHxBgKKpOJZ4je77OuPooJg9FJLvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./js/js.js"></script>
+  </body>
+</html>

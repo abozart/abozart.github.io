@@ -1,0 +1,55 @@
+ html{
+    font-family: 'Avenir Next', Helvetica, sans-serif;
+ }
+ 
+ body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+ }
+
+ input{
+    padding-top: 30px;
+    width: 500px;
+    height: 60px;
+    font-size: 40px;
+    border: 0;
+    border-bottom: 2px solid rgb(0, 62, 70);
+    margin-bottom: 8px;
+ }
+
+ button.remove{
+    border:0;
+    background-color:rgb(0, 107, 121);
+    font-weight: 900;
+ }
+
+ button.remove:hover{
+    background-color:rgb(0, 58, 65);
+    color:white;
+ }
+
+ input:focus{
+    outline: none;
+ }
+
+li{
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 62, 70);
+    color: white;
+    text-align: center;
+    border-top: 4px solid rgb(84, 84, 255);
+    height: 55px;
+ }
+
