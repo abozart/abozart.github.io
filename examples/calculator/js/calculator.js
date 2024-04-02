@@ -159,12 +159,6 @@ addEventListener("keypress", (e) => {
         if(operation != null) document.getElementById(operation).click();
         
     }
-
-    
-
-
-
-
 });
 
 setTimeout(function () { 

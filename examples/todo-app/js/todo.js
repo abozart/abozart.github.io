@@ -48,15 +48,22 @@ function show(){ //get current todos and display
 
     console.log('*********** TODOS ARRAY ****************')
     console.log(todos)
-
+    var addtoEnd = ''
+    if(todos.length > 0){ addtoEnd = '<div>Note: Click Pink "X" to remove To-Do item.</div>'}
     var html = '<ul>';
     for (var i = 0; i < todos.length; i++){
-        html += '<li>' + todos[i] + '&nbsp;<button onclick="remove('+i+')" class="remove" id="' +i+ '">&nbsp;X&nbsp;</button></li>';
+        html += '<li>' + todos[i] + '&nbsp;<button onclick="remove('+i+')" class="remove " id="' +i+ '">&nbsp;X&nbsp;</button></li>';
     };
-    html += '</ul>';
+    html += '</ul>'+addtoEnd;
     document.getElementById('todos').innerHTML = html;
 }
 
 document.getElementById('add').addEventListener('click', add);
 
 show();
+
+addEventListener("keypress", (e) => {
+
+    if(e.key == 'Enter') { document.getElementById('add').click(); }
+    
+});

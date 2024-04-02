@@ -21,12 +21,12 @@
 
  button.remove{
     border:0;
-    background-color:rgb(0, 107, 121);
+    background-color:rgb(249, 74, 156);
     font-weight: 900;
  }
 
  button.remove:hover{
-    background-color:rgb(0, 58, 65);
+    background-color: rgb(167, 0, 119);
     color:white;
  }
 
@@ -53,3 +53,41 @@ li{
     height: 55px;
  }
 
+ .tooltip {
+   position: relative;
+   display: inline-block;
+   border-bottom: 1px dotted black;
+ }
+
+ .tooltip .tooltiptext {
+   visibility: hidden;
+   width: 120px;
+   background-color: #555;
+   color: #fff;
+   text-align: center;
+   border-radius: 6px;
+   padding: 5px 0;
+   position: absolute;
+   z-index: 1;
+   bottom: 125%;
+   left: 50%;
+   margin-left: -60px;
+   opacity: 0;
+   transition: opacity 0.3s;
+ }
+ 
+ .tooltip .tooltiptext::after {
+   content: "";
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #555 transparent transparent transparent;
+ }
+ 
+ .tooltip:hover .tooltiptext {
+   visibility: visible;
+   opacity: 1;
+ }
